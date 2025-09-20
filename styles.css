@@ -1,0 +1,36 @@
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+#input_pais{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: x-large;
+    padding-left: 15px;
+    font-family: 'Couriermew', Courier, monospace;
+    
+}
+
+#button_search{
+    width: 40%;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: large;
+}
+
+#country-infomation{
+    width: 80%;
+    height: 300px;
+    background-color: floralwhite;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
